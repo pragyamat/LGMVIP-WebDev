@@ -1,0 +1,11 @@
+.footer {
+  background-color: #98c1d9;
+  height: 5vh;
+  display: grid;
+  place-content: center;
+}
+.footer-inner p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #3d5a80;
+}

@@ -1,0 +1,21 @@
+.user-grid {
+  width: 100vw;
+  min-height: 85vh;
+  background-color: #e0fbfc;
+}
+.loader {
+  display: block;
+  min-height: 50vh;
+  width: 100%;
+  display: grid;
+  place-content: center;
+}
+.user-grid-inner {
+  padding: 10vh 0;
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  justify-content: space-between;
+  gap: 4rem;
+}

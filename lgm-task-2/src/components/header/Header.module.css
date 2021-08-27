@@ -1,0 +1,34 @@
+.header {
+  background-color: #293241;
+  height: 10vh;
+  width: 100vw;
+}
+.header-container {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.get-user-btn {
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #ee6c4d;
+  border: none;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+}
+.get-user-btn:hover {
+  background-color: #548bd8;
+}
